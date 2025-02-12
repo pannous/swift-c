@@ -1,1 +1,1 @@
-int makeResult() { return 42; }
+int makeResult(int x) { return 41+x; }

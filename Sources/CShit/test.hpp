@@ -1,0 +1,1 @@
+extern "C" int makeResult(int x = 1);

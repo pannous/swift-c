@@ -1,4 +1,12 @@
-module CShit {
-    header "test.h"
-    export *
+module CShit{
+        header "test.h"
+        export *
 }
+// Swift cannot directly work with C++ headers
+/*
+module CShit [system]{
+        header "test.hpp"
+        requires cplusplus
+        export *
+}
+*/
